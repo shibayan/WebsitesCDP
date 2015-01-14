@@ -15,11 +15,13 @@ namespace PipesAndFilters.WebJobs
 
         public static void FirstStage([QueueTrigger("first")] string inbound, [Queue("second")] out string outbound)
         {
+            // 何かする
             outbound = "first " + inbound;
         }
 
         public static void SecondStage([QueueTrigger("second")] string inbound, [Queue("third")] out string outbound)
         {
+            // 何かする
             outbound = "second " + inbound;
         }
 
