@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthEndpointMonitoring", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipesAndFilters", "PipesAndFilters\PipesAndFilters.csproj", "{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retry", "Retry\Retry.csproj", "{92B69A16-618A-4BAC-92FA-77B6FCD8077D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticContentHosting", "StaticContentHosting\StaticContentHosting.csproj", "{86E47F4F-E593-4476-861F-AB08CBBCE564}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipesAndFilters.WebJobs", "PipesAndFilters.WebJobs\PipesAndFilters.WebJobs.csproj", "{D4122CE4-034A-4FBF-8BF6-70A7598BABE0}"
@@ -39,10 +37,6 @@ Global
 		{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92B69A16-618A-4BAC-92FA-77B6FCD8077D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92B69A16-618A-4BAC-92FA-77B6FCD8077D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92B69A16-618A-4BAC-92FA-77B6FCD8077D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92B69A16-618A-4BAC-92FA-77B6FCD8077D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86E47F4F-E593-4476-861F-AB08CBBCE564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86E47F4F-E593-4476-861F-AB08CBBCE564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86E47F4F-E593-4476-861F-AB08CBBCE564}.Release|Any CPU.ActiveCfg = Release|Any CPU
