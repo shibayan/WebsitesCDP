@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheAside", "CacheAside\CacheAside.csproj", "{0E554766-7DDA-4C88-9864-FEBE03D9B9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalConfigurationStore", "ExternalConfigurationStore\ExternalConfigurationStore.csproj", "{2BB95041-2D55-4594-B5E3-C690F5A9D6D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthEndpointMonitoring", "HealthEndpointMonitoring\HealthEndpointMonitoring.csproj", "{4DE3FF8D-F73F-45EA-AC57-FA9B1C7D141B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipesAndFilters", "PipesAndFilters\PipesAndFilters.csproj", "{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retry", "Retry\Retry.csproj", "{92B69A16-618A-4BAC-92FA-77B6FCD8077D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticContentHosting", "StaticContentHosting\StaticContentHosting.csproj", "{86E47F4F-E593-4476-861F-AB08CBBCE564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipesAndFilters.WebJobs", "PipesAndFilters.WebJobs\PipesAndFilters.WebJobs.csproj", "{D4122CE4-034A-4FBF-8BF6-70A7598BABE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E554766-7DDA-4C88-9864-FEBE03D9B9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E554766-7DDA-4C88-9864-FEBE03D9B9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E554766-7DDA-4C88-9864-FEBE03D9B9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E554766-7DDA-4C88-9864-FEBE03D9B9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB95041-2D55-4594-B5E3-C690F5A9D6D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB95041-2D55-4594-B5E3-C690F5A9D6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB95041-2D55-4594-B5E3-C690F5A9D6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB95041-2D55-4594-B5E3-C690F5A9D6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE3FF8D-F73F-45EA-AC57-FA9B1C7D141B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE3FF8D-F73F-45EA-AC57-FA9B1C7D141B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE3FF8D-F73F-45EA-AC57-FA9B1C7D141B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE3FF8D-F73F-45EA-AC57-FA9B1C7D141B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AEFFC1-3DDE-431B-A2FE-E82B91B68635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B69A16-618A-4BAC-92FA-77B6FCD8077D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B69A16-618A-4BAC-92FA-77B6FCD8077D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B69A16-618A-4BAC-92FA-77B6FCD8077D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B69A16-618A-4BAC-92FA-77B6FCD8077D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E47F4F-E593-4476-861F-AB08CBBCE564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E47F4F-E593-4476-861F-AB08CBBCE564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E47F4F-E593-4476-861F-AB08CBBCE564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E47F4F-E593-4476-861F-AB08CBBCE564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4122CE4-034A-4FBF-8BF6-70A7598BABE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4122CE4-034A-4FBF-8BF6-70A7598BABE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4122CE4-034A-4FBF-8BF6-70A7598BABE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4122CE4-034A-4FBF-8BF6-70A7598BABE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
